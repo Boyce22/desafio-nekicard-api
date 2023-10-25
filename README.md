@@ -3,7 +3,16 @@
 
 ### API Desenvolvida para o DesafioNeki - Aplicando conhecimentos adquiridos durante a trilha de preparação
 
+## Technologies:
 
+- [Sprint Tool Suite 4](https://spring.io/tools)
+- [Postgres](https://www.postgresql.org/download/)
+- [Dbeaver](https://dbeaver.io/download/)
+- [Insomnia](https://insomnia.rest/download)
+- [Swagger](https://swagger.io/tools/swagger-ui/download/)
+- [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) 
+- [Hibernate](https://hibernate.org)
+- [JPA](https://openjpa.apache.org/downloads.html)
 
 
 ## Endpoints
