@@ -86,5 +86,5 @@
 
 ## Screenshots
 
-![App Screenshot](https://imageupload.io/ib/bTFrLC0GZBs07V2_1698251886.png)
+![App Screenshot](https://i.imgur.com/SexbXQH.png)
 
