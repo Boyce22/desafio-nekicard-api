@@ -1,5 +1,5 @@
 
-# Desafio NekiCard - Spring Boot - Java API
+# Desafio NekiCard - Spring Boot - Java API - Desenvolvimento em 3 dias.
 
 ### API Desenvolvida para o DesafioNeki - Aplicando conhecimentos adquiridos durante a trilha de preparação
 
