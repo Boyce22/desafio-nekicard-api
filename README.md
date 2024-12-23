@@ -55,27 +55,27 @@
 ### 🗄️ Configurações do Banco de Dados  
 
 1. **Abra o arquivo** `application.properties` na pasta do projeto.  
-2. Configure as informações do banco de dados PostgreSQL substituindo pelos valores do seu ambiente:  
+2. Substitua as configurações padrão com as informações do seu banco de dados PostgreSQL:  
 
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/nekicard  
-   spring.datasource.username=seu_usuario  
-   spring.datasource.password=sua_senha
+spring.datasource.url=jdbc:postgresql://localhost:5432/nekicard
+spring.datasource.username=seu_usuario  
+spring.datasource.password=sua_senha
 ```
 
-3. Verifique se o driver do banco de dados foi corretamente configurado:  
+3. Verifique o driver do banco de dados:  
 
 ```properties
 spring.datasource.driverClassName=org.postgresql.Driver
 ```
 
-4. Configure o Hibernate para alteração automática do esquema do banco de dados:  
+4. Configure o Hibernate para gerenciar o esquema automaticamente:  
 
 ```properties
 spring.jpa.hibernate.ddl-auto=update
 ```
 
-5. Defina o dialeto do Hibernate para PostgreSQL:  
+5. Defina o **dialeto do Hibernate** para PostgreSQL:  
 
 ```properties
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
@@ -83,7 +83,7 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 
 ---
 
-### ▶️ Inicializando a API  
+### ▶️ Inicializando o Sistema  
 
 1. Certifique-se de que o PostgreSQL está rodando no ambiente local.  
 2. Compile e execute a aplicação utilizando sua IDE ou os comandos do Maven:  
